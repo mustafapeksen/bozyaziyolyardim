@@ -12,7 +12,7 @@ function Iletisim() {
         const body = event.target.message.value
         const emailInformation = `email= ${email} name=${name} subject=${body} `
 
-        const mailtoLink = `mailto:mustafapeksen04@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailInformation)}`;
+        const mailtoLink = `mailto:gmail@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(emailInformation)}`;
 
         window.location.href = mailtoLink;
     }
