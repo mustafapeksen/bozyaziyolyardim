@@ -1,24 +1,17 @@
 import React from "react";
-
 // Corporate component to display corporate information
 function Kurumsal() {
     return (
         <div>
-            {/* Title section */}
             <div className="title">
-                <h1>Corporate</h1>
+                <h1>Kurumsal</h1>
             </div>
-            {/* Container for content */}
             <div className="container-content">
-                {/* Page title */}
-                <h2 className="page-title">Corporate</h2>
-                {/* Page paragraph */}
+                <h2 className="page-title">Kurumsal</h2>
                 <p className="page-paragraph">...</p>
-                {/* Title end */}
-                <h3 className="title-end">Corporate</h3>
+                <h3 className="title-end">Kurumsal</h3>
             </div>
-        </div>
-    );
+        </div>)
 }
 
 export default Kurumsal;

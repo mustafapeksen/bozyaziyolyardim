@@ -12,7 +12,7 @@ function Footer() {
         <footer>
             <div className="footer">
                 <div id="footer-id">
-                    <h3>Contact Information</h3>
+                    <h3>İletişim Bilgilerimiz</h3>
                     <ul id="footer-ul">
                         <li>
                             {/* Display the location icon and address */}

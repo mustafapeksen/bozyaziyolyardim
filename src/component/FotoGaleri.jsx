@@ -7,7 +7,7 @@ function FotoGaleri() {
         <div>
             {/* Title section */}
             <div className="title">
-                <h1>Photo Gallery</h1>
+                <h1>Foto Galeri</h1>
             </div>
             {/* Photo gallery section */}
             <div className="photo-gallery" id="image">
