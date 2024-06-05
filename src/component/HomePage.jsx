@@ -46,7 +46,7 @@ function HomePage() {
                 </div>
             </div>
             <div className="phone-section">
-                <a href="tel:+905316187998"><PhoneEnabledIcon color="primary" sx={{ fontSize: 85 }} /></a>
+                <a href="tel:+90532 177 85 86"><PhoneEnabledIcon color="primary" sx={{ fontSize: 85 }} /></a>
                 <h2>0532 177 85 86</h2>
             </div>
             <div id="mid-title-section">
