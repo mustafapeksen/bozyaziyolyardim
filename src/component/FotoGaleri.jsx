@@ -5,8 +5,10 @@ function FotoGaleri() {
 
     return (
         <div>
-            <h1>Foto Galeri</h1>
-            <div id="image">
+            <div className="title">
+                <h1>Foto Galeri</h1>
+            </div>
+            <div className="photo-gallery" id="image">
                 <PhotoGallery />
             </div>
         </div>)

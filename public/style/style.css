@@ -1,0 +1,558 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+#header-navbar {
+    font-family: "Glegoo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media (max-width: 1550px) and (min-width: 990px) {
+
+    .title-section,
+    #mid-title-section {
+        background-size: contain !important;
+    }
+
+    .title-card {
+        padding: 4rem !important;
+        width: 40rem;
+        margin-left: 8rem;
+    }
+
+    .features-section {
+        flex-direction: column;
+    }
+
+    #mid-title-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mid-title-section-content {
+        padding: 4rem !important;
+        position: unset !important;
+        width: 40rem;
+        height: 20rem;
+    }
+
+    #grid-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #image {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #blog-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+    }
+
+    .contact {
+        flex: 0.9 !important;
+    }
+}
+
+@media (max-width: 990px) and (min-width: 800px) {
+
+    .title-section,
+    #mid-title-section {
+        background-size: contain !important;
+    }
+
+    .title-card {
+        padding: 3rem !important;
+        width: 30rem;
+        margin-left: 8rem;
+    }
+
+    .features-section {
+        flex-direction: column;
+    }
+
+    #mid-title-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mid-title-section-content {
+        padding: 4rem !important;
+        position: unset !important;
+        width: 40rem;
+        height: 16rem;
+    }
+
+    #grid-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+
+    #image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #blog-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .contact {
+        flex: 0.8 !important;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 500px) {
+
+    .title-card {
+        padding: 2rem !important;
+        width: 20rem;
+        margin-left: 8rem;
+    }
+
+    .features-section {
+        flex-direction: column;
+    }
+
+    #features-container {
+        width: 30rem;
+    }
+
+    #features-img {
+        width: 30rem !important;
+    }
+
+    #mid-title-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    #mid-title-section-content {
+        padding: 4rem !important;
+        position: unset !important;
+        width: 40rem;
+        height: 20rem;
+    }
+
+    #grid-content {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+    }
+
+    #image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #blog-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .content-section {
+        flex-direction: column;
+        gap: 5rem !important;
+    }
+
+    .contact {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .title-card {
+        padding: 1rem !important;
+        width: 19rem;
+        margin-left: 8rem;
+    }
+
+    #mid-title-section-content {
+        position: relative !important;
+        padding: 0 !important;
+        right: auto !important;
+        top: 15rem !important;
+    }
+
+    .features-section {
+        flex-direction: column;
+    }
+
+    #features-img {
+        width: 21rem !important;
+        height: 13rem !important;
+    }
+
+    #features-container {
+        width: 20rem;
+    }
+
+    #grid-content,
+    #image {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    #blog-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #grid-content img {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    #image img {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    #blog-container img {
+        width: 15rem;
+        height: 10rem;
+    }
+
+    #blog-container .blog-card {
+        width: 15rem;
+    }
+
+    .content-section {
+        flex-direction: column;
+        gap: 3rem !important;
+    }
+
+    .contact {
+        width: 19rem;
+    }
+
+    #footer-id {
+        padding: 3rem !important;
+        backdrop-filter: blur(0px) saturate(141%);
+        -webkit-backdrop-filter: blur(0px) saturate(141%);
+        background-color: rgba(78, 71, 71, 0.51);
+        border-radius: 12px;
+        border: 1px solid rgba(209, 213, 219, 0.3);
+    }
+
+    #footer-ul {
+        padding: 0;
+    }
+}
+
+
+.title-section {
+    background-image: url("https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/bozyazi-yol-yardim.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: start;
+    align-items: start;
+    right: 25%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 5rem;
+    z-index: 0;
+}
+
+.title-card p {
+    max-width: 35rem;
+}
+
+.features-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem 0;
+    gap: 5rem;
+}
+
+.phone-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem 0;
+}
+
+#features-container {
+    max-width: 50rem;
+}
+
+.features-section img {
+    width: 36rem;
+    height: 23rem;
+}
+
+#mid-title-section {
+    background-image: url("https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/bozyazi-yol-yardim-hizmetleri.webp");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 30rem;
+}
+
+#mid-title-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mid-title-section-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    right: 25%;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    color: white;
+    padding: 5rem;
+    z-index: 0;
+    max-width: 30rem;
+    top: 2rem
+}
+
+
+.title,
+.footer-end {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #000000c0;
+    height: 10rem;
+    box-sizing: border-box;
+    color: white;
+}
+
+.container-content {
+    display: flex;
+    flex-direction: column;
+    margin: 7rem 7rem auto 20%;
+    gap: 1rem;
+}
+
+.hizmetler-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+    place-items: center;
+}
+
+
+.hizmetler-grid-container img {
+    width: 30rem;
+    height: 20rem;
+}
+
+.hizmetler-grid-container a,
+.hizmetler-grid-container h3 {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2rem;
+    place-items: center;
+    margin-top: 5rem;
+}
+
+.photo-gallery img {
+    width: 30rem;
+    height: 20rem;
+}
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 2rem;
+    place-items: center;
+    margin-top: 5rem;
+}
+
+.blog-card {
+    background-color: rgba(112, 110, 110, 0.185);
+    width: 30rem;
+}
+
+.blog-card img {
+    width: 30rem;
+    height: 20rem;
+
+}
+
+#map {
+    width: 100%;
+}
+
+.content-section {
+    display: flex;
+    gap: 15rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.contact {
+    flex: 0.5;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#name,
+#email,
+#issue,
+#message {
+    width: 100%;
+    height: 3rem;
+    box-sizing: border-box;
+    border-width: 0.1rem;
+    border-style: solid;
+    border-color: rgba(133, 133, 133, 0.582);
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgba(133, 133, 133, 0.582);
+}
+
+#message {
+    height: 200px;
+}
+
+#send {
+    width: 20%;
+    border: none;
+    border-radius: 5px;
+    background-color: #0D6EFD;
+    color: white;
+    height: 2rem;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    background-color: #0D6EFD;
+    color: white;
+    height: 2rem;
+}
+
+.footer {
+    background-image: url("https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/bozyazi-yol-yardim-iletisim.webp");
+    color: white;
+    margin-top: 10em;
+    margin-bottom: 0;
+}
+
+#footer-id {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 7em;
+}
+
+li {
+    list-style: none;
+}
+
+#social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem
+}
+
+#social-media>a {
+    background: rgb(197, 128, 0);
+    border-radius: 50%;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+.whatsapp {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.cellphone {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+}
+
+.cellphone,
+.whatsapp {
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}

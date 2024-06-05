@@ -41,11 +41,11 @@ function Hizmetlerimiz() {
     }];
 
     return (
-        <div className="container">
-            <div>
+        <div>
+            <div className="title">
                 <h1>Hizmetlerimiz</h1>
             </div>
-            <div className="grid-container">
+            <div id="grid-content" className="hizmetler-grid-container">
                 {hizmetler.map((hizmet, index) => (
                     <HizmetlerContent key={index} src={hizmet.src} name={hizmet.name} id={index} />
                 ))}

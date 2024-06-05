@@ -21,11 +21,17 @@ function Blog() {
     }];
 
 
-    return (<div><h1>Blog</h1>
-        {blogContents.map((blogContent, index) => (
-            <BlogCard key={index} title={blogContent.title} text={blogContent.text} img={blogContent.img} />)
-        )}
-    </div>)
+    return (
+        <div>
+            <div className="title">
+                <h1>Blog</h1>
+            </div>
+            <div className="blog-grid" id="blog-container">
+                {blogContents.map((blogContent, index) => (
+                    <BlogCard key={index} title={blogContent.title} text={blogContent.text} img={blogContent.img} />)
+                )}
+            </div>
+        </div>)
 }
 
 export default Blog;

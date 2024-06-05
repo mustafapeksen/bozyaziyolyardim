@@ -1,0 +1,36 @@
+/* Header.css */
+.custom-navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background-color: #f8f9fa;
+}
+
+.custom-offcanvas {
+    width: 200px;
+    /* Sidebar genişliğini ayarlayın */
+    max-width: 80%;
+    /* Mobil cihazlarda daha iyi görünüm için */
+    background-color: #f8f9fa;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link.active {
+    color: #0d6efd;
+}
+
+.offcanvas-header .offcanvas-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.offcanvas-body .nav-link {
+    padding: 0.5rem 1rem;
+}
+
+.offcanvas-start {
+    width: 20rem !important;
+}
