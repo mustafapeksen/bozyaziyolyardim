@@ -1,56 +1,60 @@
 import React from "react";
 import HizmetlerContent from "./HizmetlerContent";
 
+// Hizmetlerimiz component to display services
 function Hizmetlerimiz() {
+    // Array of service objects with name and image source
     const hizmetler = [{
-        name: "Oto Kurtarma",
+        name: "Car Recovery",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/oto-kurtarma.webp"
     }, {
-        name: "Yol Yardım",
+        name: "Road Assistance",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/yol-yardim.webp"
     }, {
-        name: "Oto Çekici",
+        name: "Car Towing",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/oto-cekici.webp"
     }, {
-        name: "Tekli Araç Taşıma",
+        name: "Single Vehicle Transport",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/tekli-arac-tasima.webp"
     }, {
-        name: "Çoklu Araç Taşıma",
+        name: "Multiple Vehicle Transport",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/coklu-arac-tasima.webp"
     }, {
-        name: "Sıfır Araç Taşıma",
+        name: "New Vehicle Transport",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/sifir-arac-tasima.webp"
     }, {
-        name: "Şehirler Arası Araç Taşıma",
+        name: "Inter-City Vehicle Transport",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/sehirler-arasi-arac-tasima.webp"
     }, {
-        name: "İş Makinası Taşıma",
+        name: "Construction Equipment Transport",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/is-makinasi-tasima.webp"
     }, {
-        name: "Traktör Taşıma",
+        name: "Tractor Transport",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/traktor-tasima.webp"
     }, {
-        name: "Minibüs Taşıma",
+        name: "Minibus Transport",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/minibus-tasima.webp"
     }, {
-        name: "Kamyonet Taşıma",
+        name: "Van Transport",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/kamyon-tasima.webp"
     }, {
-        name: "Hasarlı Araç Taşıma",
+        name: "Damaged Vehicle Transport",
         src: "https://bozyaziyolyardim.com.tr/wp-content/uploads/2023/09/hasarli-arac-tasima.webp"
     }];
 
     return (
         <div>
+            {/* Title section */}
             <div className="title">
-                <h1>Hizmetlerimiz</h1>
+                <h1>Our Services</h1>
             </div>
+            {/* Service grid container */}
             <div id="grid-content" className="hizmetler-grid-container">
+                {/* Map through services and render HizmetlerContent component for each */}
                 {hizmetler.map((hizmet, index) => (
                     <HizmetlerContent key={index} src={hizmet.src} name={hizmet.name} id={index} />
                 ))}
             </div>
-
         </div>
     );
 }
