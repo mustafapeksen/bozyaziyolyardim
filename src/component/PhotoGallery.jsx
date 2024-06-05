@@ -5,34 +5,34 @@ import { Gallery, Item } from 'react-photoswipe-gallery';
 
 function PhotoGallery() {
     return (<Gallery>
-        <Item original="/image/cekici.webp" thumbnail="/image/cekici.webp" width="1024" height="768">
+        <Item original="/images/cekici.webp" thumbnail="/images/cekici.webp" width="1024" height="768">
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/image/cekici.webp" alt="Resim Açıklaması" />
+                <img ref={ref} onClick={open} src="/images/cekici.webp" alt="Resim Açıklaması" />
             )}
         </Item>
-        <Item original="/image/cekiciyol.webp" thumbnail="/image/cekiciyol.webp" width="1024" height="768">
+        <Item original="/images/cekiciyol.webp" thumbnail="/images/cekiciyol.webp" width="1024" height="768">
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/image/cekiciyol.webp" alt="Resim Açıklaması" />
+                <img ref={ref} onClick={open} src="/images/cekiciyol.webp" alt="Resim Açıklaması" />
             )}
         </Item>
-        <Item original="/image/kurtarmaotocekici.webp" thumbnail="/image/kurtarmaotocekici.webp" width="1024" height="768">
+        <Item original="/images/kurtarmaotocekici.webp" thumbnail="/images/kurtarmaotocekici.webp" width="1024" height="768">
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/image/kurtarmaotocekici.webp" alt="Resim Açıklaması" />
+                <img ref={ref} onClick={open} src="/images/kurtarmaotocekici.webp" alt="Resim Açıklaması" />
             )}
         </Item>
-        <Item original="/image/kurtarmayol.webp" thumbnail="/image/kurtarmayol.webp" width="1024" height="768">
+        <Item original="/images/kurtarmayol.webp" thumbnail="/images/kurtarmayol.webp" width="1024" height="768">
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/image/kurtarmayol.webp" alt="Resim Açıklaması" />
+                <img ref={ref} onClick={open} src="/images/kurtarmayol.webp" alt="Resim Açıklaması" />
             )}
         </Item>
-        <Item original="/image/yol-kurtarma.webp" thumbnail="/image/yol-kurtarma.webp" width="1024" height="768">
+        <Item original="/images/yol-kurtarma.webp" thumbnail="/images/yol-kurtarma.webp" width="1024" height="768">
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/image/yol-kurtarma.webp" alt="Resim Açıklaması" />
+                <img ref={ref} onClick={open} src="/images/yol-kurtarma.webp" alt="Resim Açıklaması" />
             )}
         </Item>
-        <Item original="/image/yolyardim.webp" thumbnail="/image/yolyardim.webp" width="1024" height="768">
+        <Item original="/images/yolyardim.webp" thumbnail="/images/yolyardim.webp" width="1024" height="768">
             {({ ref, open }) => (
-                <img ref={ref} onClick={open} src="/image/yolyardim.webp" alt="Resim Açıklaması" />
+                <img ref={ref} onClick={open} src="/images/yolyardim.webp" alt="Resim Açıklaması" />
             )}
         </Item>
     </Gallery>);

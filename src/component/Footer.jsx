@@ -41,10 +41,10 @@ function Footer() {
                 <div id="phone-connect">
                     {/* WhatsApp and phone call links */}
                     <a className="whatsapp" aria-label="Chat on WhatsApp" href="https://wa.me/+12345">
-                        <img className="whatsapp" alt="Chat on WhatsApp" src="/image/WhatsAppButtonGreenLarge.svg" />
+                        <img className="whatsapp" alt="Chat on WhatsApp" src="/images/WhatsAppButtonGreenLarge.svg" />
                     </a>
                     <a className="cellphone" href="tel:+12345">
-                        <img className="cellphone" src="/image/PhoneCall.png" alt="Phone on Telephone" />
+                        <img className="cellphone" src="/images/PhoneCall.png" alt="Phone on Telephone" />
                     </a>
                 </div>
             </div>
